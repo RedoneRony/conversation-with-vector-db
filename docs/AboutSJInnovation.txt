@@ -1,0 +1,724 @@
+﻿1. About SJ Innovation LLC
+Since 2004, SJ Innovation LLC has been creating and delivering bespoke software solutions to businesses globally.  What started as a humble family business has grown to become a global force with operations in Bangladesh, India, and our main headquarters in the heart of New York, USA.
+
+
+At SJ Innovation LLC, our greatest strength lies in our competent and resourceful project management team. We pride ourselves on maintaining an engineering base right here in the United States. This allows us to deliver a sophisticated and nuanced experience that fulfills your specific business needs.
+
+
+With our teams dispersed across the globe, communication is seamless, and you never have to worry about disturbing your sleep routine to communicate with your project manager. With over 160 employees worldwide who are well-versed in their chosen domains, SJ Innovation LLC has a wealth of experience and expertise at its fingertips.
+
+
+At SJ Innovation LLC, we have 18 years of experience and a team of experts who are masters of their chosen domains, offering valuable years of cumulative experience. Our core values revolve around consistent diligence in achieving customer success and fostering an optimistic, vibrant, and committed workforce that collaborates effortlessly to attain a shared vision. Experience the perfect blend of innovation and excellence with us!
+
+
+1.1. Our Expertise
+Our expertise revolves around providing top-notch end-to-end solutions that encourage innovative designs and exceed our clients' expectations. Our team possesses a wealth of knowledge and experience in services such as design, web development, mobile app development, QA testing, and AWS server support. We strive to accomplish business objectives painstakingly to take your digital presence to the next level.
+
+
+Design
+	Web Development
+	   * Graphic Designing
+   * Newsletter/Email Template Design
+   * Mobile app UI/UX
+   * Wireframes
+   * Website UI/UX
+   * Theme designs
+   * Illustrations
+	   * MERN Stack
+   * Drupal
+   * Shopify
+   * Magento
+   * React.js
+   * MongoDB
+   * MySQL
+   * API
+   * HTML/CSS/Javascript.
+	Mobile App Development
+	QA Testing
+	   * Native: iOS and Android apps
+   * Cross-Platform Apps: React Native
+   * Flutter 
+   * Firebase.
+	   * Compatibility / Regression / Security Testing
+   * User Acceptance Testing
+   * Exploratory Testing
+   * Automation Testing
+	AWS Server Support
+	Back-End Development
+	   * Certified Cloud practitioner
+   * Experts Across AWS Cloud Solutions.
+	   * MEAN Stack
+   * .NET
+   * NodeJS
+	1.2. Our Services
+
+
+Our company specializes in delivering a broad spectrum of web development solutions that enable businesses to maximize their digital potential. With a deep understanding of the latest industry trends and cutting-edge technologies, our team of experts is committed to providing tailored solutions through the following services:
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+	Web Application Development
+	  
+
+	Mobile Application Development
+	  
+
+	AWS Cloud Services
+	  
+
+	Quality Assurance & UAT
+	  
+
+	Progressive Web Development
+	  
+
+	Drupal Development
+	  
+
+	Email & Landing Page Design
+	  
+
+	Cross-Platform & Native App
+	
+
+
+
+
+
+
+
+
+
+
+
+1.3. Organizational Structure 
+
+
+Please refer below to the organizational structure of our organization. This framework outlines the various departments, roles, and reporting relationships within our organization, and is designed to facilitate efficient and effective coordination of our activities towards achieving our goals.
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.4. Our New York-based Project Management Team
+Shahed Islam is a thriving entrepreneur, an emerging business development leader, and a passionate mentor, consultant, and personal coach to SME Managers. Currently, the co-founder and CEO of ‘SJ Innovation LLC’, he has over 20 years of experience as a cross-functional global team builder, managing software development teams in India, Bangladesh, Ukraine, and the US. Shahed brought e-Commerce to the Bangladeshi community in the US through his BDBazar venture in the dot-com era.
+	
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shahed Islam - CEO
+	
+
+
+
+  
+
+
+
+Shahera Choudhury - COO
+	Being the co-founder and COO of ‘SJ Innovation LLC’, Shahera has steadfastly played a decisive role in the company’s increasing development and expansion efforts. She, along with Shahed, began the company around 18 years back and proactively collaborates to resolve software outsourcing agency dilemmas and fine-tune software development strategies for iOS & Android App Development, Bootstrap & Foundation Frameworks.
+	
+
+Syed is a Team Lead at ‘SJ Innovation LLC’ who has resolutely and calmly steered all elements of project management and implementation effectively. He is a Certified Scrum Master® (CSM®), Certified SAFe® 5 Advanced Scrum Master (ASM), and a Certified Scrum Product Owner® (CSPO®). His valuable years of experience have helped him lead all stages of the project lifecycle on time and within budget. 
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Syed Saidul Islam Project Manager
+	
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Dilwar Hussain
+Project Coordinator
+	Dilwar is a proficient Project Consultant at ‘SJ Innovation LLC’ and a Certified Scrum Master® (CSM®) with a combined experience of more than 5 years as a successful Business Analyst & Project Coordinator. His masterful command of business strategy and analytical skills as well as a superior understanding of Agile methodologies helps in analyzing the vision and goals of the project, allocating budget, examining competitive analysis, and communicating progress smoothly. 
+	1.5. Development Team Information
+SJI’s website development team is spearheaded by a team of experienced professionals who are responsible for planning, organizing, executing, and directing the completion of the project. The following primary staff members will play a crucial role in ensuring the project's success:
+Amol Bhandari - Assistant Technical Manager Web Dev
+Amol Bhandari, Assistant Technical Manager at sjinnovation.com, has 15 years of experience in PHP, Python, HTML5, CSS, Bootstrap4, MySQL, Postgresql, MongoDB, JavaScript, JQuery, Ajax, React js, WordPress, Magento, Opencart, Drupal, Codeigniter, CakePHP, and Django. He is certified as an AWS Solution Architect Associate with expertise in AWS technologies including Serverless, Cognito, API gateway, Lambda, Cloud formation, DynamoDB, and S3.
+	  
+
+	Abesh S - Assistant Technical Manager Mobility
+Abesh is a highly experienced Technical Manager with a strong background in Mobile Technologies, with a results-driven approach, He is passionate about creating innovative mobile applications that deliver exceptional user experiences. He brings more than 2 decades of experience.
+	  
+
+	Paresh Bagi - Assistant Technical Manager Quality Assurance
+Paresh has more than 10 years of experience in the Quality Assurance process, adeptly establishing QA processes, and procedures, and overseeing the testing of a product or service.
+	  
+
+	Pritesh P  - Assistant Technical Manager UI / UX and Design
+Pritesh has more than a decade of experience in front end technologies, UI / UX and website designs. He is currently leading the Design and FrontEnd team at SJ Innovation. 
+	  
+
+	Abhishek Naik - Tech Lead Server
+Abhishek has been working with SJ Innovation for the past 4 years under the System Administration and Server Maintenance department. He is a certified AWS DevOps engineer who has efficiently achieved a couple of certifications for the same. He has more than 8 years of overall experience
+
+
+	  
+
+	1.6. Why Collaborating With Us is a Wise Move?
+As a leading IT solutions provider, SJ Innovation LLC (sjinnovation.com) religiously seeks for pioneering IT solutions that give our clients an edge over their competitors. Our commitment to excellence and client satisfaction, no matter what, makes us a reliable partner for businesses that wish to improve their IT systems and processes. Here are some of the benefits that await when collaborating with SJ Innovation:
+
+
+1. A 100% Transparent Approach: SJ Innovation believes in transparency and honesty in all dealings with clients. We maintain open communication channels and provide regular updates on project progress, costs, and any issues that may arise. SJ Innovation's transparent policy ensures that clients are informed of every aspect of the project, which builds trust and enhances the client relationship.
+
+
+2. Strong Relationships: SJ Innovation's key attribute lies in their exceptional ability to cultivate robust relationships with their clients. We prioritize our clients' unique needs and goals and work to develop tailored solutions that effectively cater to their specific objectives through collaboration, transparency, and open communication.
+
+
+3. Different Time Zones: SJ Innovation's global team, spanning across different time zones including New York, Goa, and Bangladesh, enables us to provide uninterrupted support to our clients 24/7. Regardless of the client's location, you receive excellent service and have access to our expertise at all times.
+
+
+4. Client Success: SJ Innovation is committed to delivering projects that align with our clients' business objectives and drive their success. We collaborate closely and take a vested interest in our clients' outcomes to prioritize their satisfaction above all else. This in turn ensures long-term success!  
+
+
+5. An employee centric culture that drives client success: SJ Innovation thrives on a company culture that values collaboration, teamwork, and creativity. By encouraging our team members to share their ideas and insights, we ensure our team members are motivated, engaged, and passionate about their work. This reflects on the high-quality service and solutions we offer our clients. 
+
+
+6. Building Large and Sustainable Relationships: SJ Innovation has a proven track record of cultivating strong and enduring partnerships with clients. During our successful collaborations with various clients spanning several years, we have provided a range of services that have helped these companies achieve their business objectives. Our ability to build and maintain these lasting relationships is a testament to our dedication to foster trust and deliver exceptional value to our clients.
+
+
+
+
+
+
+1.7. Our Global Footprint:
+
+
+We have a strong global presence with offices located strategically in key regions across multiple continents, allowing us to better serve our clients worldwide. Our network of professionals is well-established and equipped to deliver exceptional solutions that are tailored to the specific requirements of each region, while maintaining consistency in our service delivery. 
+
+
+  
+
+________________
+1.8. Our Clients 
+SJ Innovation has an impressive portfolio of clients across various industries, including healthcare, education, and finance. Their clients include major companies such as Johnson & Johnson, San Diego State University, MW Bankers, and Council on Foreign Relations (CFR). Please refer to the below snippet showing a few of our clients.
+
+
+  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	1.9. Our Partners
+SJ Innovation has partnered with the world's next-gen technologies and leading Headless CMS to unleash more and better value for our clients.
+
+
+Our collaborations spark innovation and nurture a thriving, end-to-end impact for organizations that can bring about a change in the tech world. We join forces with cutting-edge technology providers looking to leave a mark on companies to drive growth, longevity, and increase customer conversion!
+
+
+  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	
+
+	
+
+
+
+________________
+1.10. Certifications 
+We take pride in our team's expertise and commitment to delivering the best solutions to our clients. Here are a few certifications that our team has undertaken with our solutions partners:
+
+
+  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	  
+
+	
+
+These certifications demonstrate our commitment to staying up-to-date with the latest technology and industry best practices, and allow us to deliver high-quality solutions to our clients.
+________________
+1.11. Achievements
+
+
+Here are a few of our notable achievements that reflect our years of exceptional service.
+
+
+RECOGNIZED BY
+	CATEGORY
+	  
+
+	Top Rated Web Development Agency in the Global Stream
+	  
+
+	Registered Web Development Agency at Inc. 5000
+	  
+
+	Top Rated Drupal Agency in NY
+	  
+
+	Top Rated Agency with 98% Job Success
+	  
+
+	Top rated Web Development Agency in New York, USA 
+	  
+
+	ISO Certification 9001 - 2015
+	  
+
+	MBE Certified Company
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2  . Previous Experience: Example Work
+
+
+SJ Innovation LLC has a thriving global portfolio across diverse industries, which underscores the firm's skill and proficiency in delivering top-notch solutions worldwide. With a profound grasp of each client's distinctive requirements, SJ Innovation LLC provides personalized services to help them achieve their business objectives. Please find below some of our projects for your perusal.
+
+
+Project Name
+	Category
+	Project Type
+	Project Link 
+	Council on Foreign Relations
+	Non-Profit
+	Web Application
+	www.cfr.org
+	Janssen Medical Cloud UK
+	Health Ind.
+	Web Application
+	www.janssenmedicalcloud.co.uk
+	Igotcoderz
+	Education
+	Web Application Upgradation
+	www.igotcoderz.com
+	World101
+	Non-profit
+	Web Application
+	www.world101.cfr.org
+	Board of Directors
+	Non-profit
+	Web Application
+	www.cfr.org/board-directors
+	Podcasts
+	Non-profit
+	Web Application
+	www.cfr.org/podcasts
+	Women's participation in peace processes
+	Non-profit
+	Web Application
+	www.cfr.org/womens-participation-in-peace-processes
+	Global conflict tracker
+	Non-profit
+	Web Application
+	www.cfr.org/global-conflict-tracker
+	Bangladesh Development Initiative (BDI)
+	Non-profit
+	Web Application
+	www.jbs.bdiusa.org
+	Cyber Operations Tracker
+	Non-profit
+	Web Application
+	www.microsites-live-backend.cfr.org/cyber-operations
+	We sell cellular
+	Fashion
+	eCommerce
+	www.wesellcellular.com
+	Kaizen Website Redo
+	Corporate
+	Web Development
+	www.ksg.us
+	Tiara Yachts
+	Travel & Tour, Sports
+	eCommerce 
+	www.tiarayachts.com
+	Neutrogena
+	Fashion Beauty Style & Clothing
+	eCommerce
+	www.skin360.neutrogena.com
+	Tour Patron 
+	Travel & Tour
+	Mobile App
+	www.tourpatron.com
+	Vygilance - Ensure the Daily Life Safety
+	Safty and Security
+	Mobile App
+	https://apps.apple.com/sr/app/vygilance-assist/id1434825955
+	Fultoli Islamic Center App
+	Religius 
+	Mobile App
+	https://apps.apple.com/us/app/fultoli-islamic-center/id1571440380
+	Teachers Pay Teacher
+	Education 
+	Mobile App
+	https://www.teacherspayteachers.com/Mobile
+	Rentah
+	Lifestyle
+	Mobile App
+	https://apps.apple.com/us/app/rentah/id1193331507
+	Game of falls
+	Game
+	Mobile Game 
+	https://apps.apple.com/us/app/game-of-falls/id1455203161?ls=1
+	Crafted Email
+	Corporate
+	Web Application
+	www.crafted.email
+	Xcoobee
+	Food Ordering
+	Web Application
+	www.xcoobee.com
+	Perennial Resources
+	Research
+	Web Application
+	www.perennialresources.com
+	More than 2000+ Completed Projects
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+3  . Statement of Corporate Social Responsibility: 
+SJ Innovation LLC is deeply dedicated to Corporate Social Responsibility (CSR), recognizing its vital role in making a positive societal impact. With a proven history of leveraging technological expertise for innovative non-profit projects, we demonstrate a genuine commitment to social betterment. Our CEO, Shahed Islam, serves as a model advocate for community engagement and holds a position on The Optimists' Board of Directors (www.theoptimists.org). We actively engage with communities, prioritize ethical business practices, and champion diversity and inclusion. Environmental responsibility is a top priority, and we encourage employee participation in volunteer and philanthropic activities. CSR at SJ Innovation isn't just a statement; it's a driving force behind our actions and values, guiding us towards a brighter, more inclusive, and sustainable future for all.
+
+
+Key Highlights 
+
+
+  
+
+	Community Outreach and Skill Development
+We actively participate in initiatives aimed at educating and empowering students, enhancing their employability through our SJ Innovation Community Outreach Webinars and Live Sessions (www.community.sjinnovation.com).
+	  
+
+	CEO's Contribution 
+Our CEO is a key contributor to our commitment to social betterment. He actively serves on The Optimists' Board of Directors, advancing their mission. In the IT industry, he passionately empowers entrepreneurs through platforms like Podcasts, Webinars, and live sessions, sharing his expertise and fostering innovation. His dedication fuels growth in both organizations and individuals alike.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4    . Process and Methodology Followed at SJ Innovation
+SJ Innovation follows a comprehensive process and methodology for all software development projects. Our approach is designed to ensure the highest quality of work, efficient use of resources, and timely delivery of projects. Please refer below to the list of processes and methodologies used at SJ Innovation.
+
+
+4.1. Development Life Cycle - SDLC
+
+
+At SJ Innovation, we follow an Agile Lifecycle for software development. It involves the following steps:
+
+
+* Development and Planning Phase: Stakeholders determine project scope and objectives.
+* Review Phase: Defining requirements, including UI and UX designs.
+* Integration and Testing Phase: Ensure software functions and meets established requirements.
+* Evaluation Phase: Stakeholders and end-users evaluate the project's performance, features, and functionalities.
+* Feedback and Approval Phase: Release the product to the market, coordinating with different teams for a seamless launch.
+* Resolving Issues Phase: Refine the project until all goals are met, ensuring a high-quality solution that meets the client's expectations.
+
+
+  
+
+
+
+4.2. User Training & Ongoing Support: 
+
+
+At SJ Innovation, we are committed to providing our clients with the highest level of support and training.
+
+
+We provide comprehensive training and support for clients via remote communication channels, such as email, video, live webinars, phone, and documentation. Our team is committed to ensuring the success of the project by providing timely and detailed support.
+
+
+We provide high-quality ongoing support and maintenance to ensure that the website operates smoothly at all times, with minimal cost to our clients. We are dedicated to the success of our clients' projects and strive to exceed their expectations by providing exceptional support and training services.
+4.3. Project Management Tools
+We rely on two main project management tools for our client projects - Active Collab and WorkBoard. These tools help us to effectively manage tasks, track progress, and collaborate with clients. In addition, our team is proficient in using various other PM tools and platforms, including Click Up for our internal project management operations. We also offer ticketing services to our clients so that clients can create tickets for their complaints and concerns, which can be resolved via our project management system.
+
+
+  
+
+	  
+
+	4.4. Communication Tools 
+Our team internally uses Slack for communication, Zoom and G-Meet for calls, and Google Suite for email communication. But over the years we have got exposure to all the major & minor communication platforms and we are flexible to communicate with any electronic media.
+
+
+  
+
+	  
+
+	  
+
+	  
+
+	
+
+4.5. Technical Review Process
+
+
+We understand that technical code review plays a crucial role in the development of websites/software. To ensure that there are no interdependencies or security issues on the coding side, we at SJ Innovation LLC have a dedicated tech lead/product manager for each project to ensure each snippet of code is annotated, standardized, and easy to read/follow by other developers. The below-mentioned diagram illustrates our code review/technical process.
+
+
+  
+
+ 
+4.6. Quality Assurance Testing Process
+At SJ Innovation, we follow a rigorous QA process to ensure the highest level of quality for our clients. Our QA team works closely with the development team throughout the development process, starting with the creation of test cases and test scenarios based on the requirements. We have a well-defined QA approach that includes manual and automated testing, functional and non-functional testing, and performance and security testing. Our bug life cycle management process ensures that every bug is tracked, prioritized, and resolved before the final product is delivered to the client. We also make use of various tools and technologies to streamline the testing process and ensure maximum coverage. Please find attached diagrams depicting our QA approach for testing and the bug life cycle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.6.1. SJI’s QA Approach for Testing 
+
+
+  
+
+
+
+4.6.2. Bug Life Cycle Process
+
+
+  
+
+
+
+4.6.3. SJI’s Website Testing Approach 
+SJI's website testing approach involves a comprehensive process that ensures the website's functionality and features are thoroughly tested. Please find below the details : 
+
+
+* Define test objectives: Clearly define the goals and objectives of the testing process. This will help you to determine the scope and level of testing required.
+* Determine test scenarios: Based on the defined objectives, create test scenarios that cover the most important functionality and features of the website.
+* Identify test cases: Develop test cases for each scenario that covers all the possible test conditions, inputs, and expected outputs.
+* Execute test cases: Execute the test cases manually or using automated testing tools. Test cases should cover a range of scenarios, including positive, negative, and boundary conditions.
+* Record results: Record the results of each test case, including any defects found, and the steps taken to reproduce the issue.
+* Report and prioritize defects: Once all the test cases have been executed, prioritize and report any defects found during the testing process.
+* Retest and verify fixes: After the defects have been fixed, retest the affected functionality to ensure that the fixes have been implemented correctly and have not introduced new defects.
+* Regression testing: Finally, perform regression testing to ensure that changes made to the website do not impact previously working functionality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023, SJ Innovation LLC. All rights reserved.                                                Page -
