@@ -31,6 +31,7 @@ import customTrainDataRouter from "./routers/customTrainDataRoute.js";
 import assistantTypesRoute from "./routers/assistantTypesRoutes.js";
 import pinnedRouter from "./routers/pinnedAssistantRoutes.js";
 import fileRouter from "./routers/fileUploadRoute.js";
+import embeddingRouter from "./routers/embeddingRoutes.js";
 const app = express();
 const server = http.createServer(app);
 
@@ -61,7 +62,7 @@ app.use("/api/assistants/public", publicRouter);
 app.use("/api/assistants/favourite", favoriteRouter);
 app.use("/api/assistants/pinned", pinnedRouter);
 app.use("/api/customTrainData", customTrainDataRouter);
-
+app.use("/api/embedded", embeddingRouter);
 
 
 app.use('/api/assistants/threads', assistantThreadRouter);
