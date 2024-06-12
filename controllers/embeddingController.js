@@ -5,56 +5,44 @@ import { upsertEmbeddings, deleteEmbeddingsByIds, deleteAllEmbeddingsInNamespace
 import { HNSWLib } from "langchain/vectorstores/hnswlib";
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
-import natural from 'natural';
-
-
-// Initialize a TF-IDF vectorizer
-const tfidf = new natural.TfIdf();
-// Function to convert text into numerical vector using TF-IDF
-const textToVector = (text) => {
-    // Add document to the TF-IDF vectorizer
-    tfidf.addDocument(text);
-
-    // Get TF-IDF vector representation
-    const vector = tfidf.listTerms(0 /* Document index */)
-        .map(({ term, tfidf }) => tfidf);
-
-    return vector;
-};
+import OpenAI from "openai";
+import dotenv from 'dotenv';
+import { v4 as uuidv4 } from 'uuid';
+dotenv.config();
 
 
 export const addEmbeddedText = async (req, res) => {
   try {
-    
+
     const namespace = "pinecone-index"
+    const index = 'irfan-ai';
+
+    const openai = new OpenAI({
+      apiKey: process.env.CHATGPTAPIKEY,
+    });
     const file = req.file;
-    
+
     if (!file) {
       return res.status(400).json({ error: 'No file uploaded' });
     }
 
     const text = file.buffer.toString('utf8');
-    // const chunks = await splitText(text);
-    let vectors;
-    const textSplitter = new RecursiveCharacterTextSplitter({ chunkSize: 1000 });
-    const docs = await textSplitter.createDocuments([text]);
-    vectors = await HNSWLib.fromDocuments(docs, new OpenAIEmbeddings({openAIApiKey: process.env.CHATGPTAPIKEY}));
-    vectors = extractEmbeddingsFromHNSWLib(vectors);
-    
 
-    const formattedVectors = vectors.map(vector => ({
-        id: vector.id,
-        values: textToVector(vector.values), // Wrap the values in an array
-        metadata: vector.metadata
-    }));
+    const embedding = await openai.embeddings.create({
+      model: "text-embedding-3-small",
+      input: text,
+      encoding_format: "float",
+    });
 
-    // console.log(formattedVectors);
-    // console.log("formattedVectors", formattedVectors);
-    await upsertEmbeddings(namespace, formattedVectors);
+    const formattedVectors = [{
+      id: uuidv4(),
+      values: embedding?.data[0].embedding,
+      metadata: embedding?.usage
+    }];
 
-    // fs.unlinkSync(file.path);
+    const response = await upsertEmbeddings(namespace, index, formattedVectors);
 
-    res.status(200).json({ message: 'Text embedded and stored successfully.' });
+    res.status(200).json({ message: `Text embedded and stored ${response}.` });
   } catch (error) {
     console.error('Error adding embedded text:', error);
     res.status(500).json({ error: 'Failed to add embedded text.' });
@@ -64,17 +52,26 @@ export const addEmbeddedText = async (req, res) => {
 export const updateEmbeddedText = async (req, res) => {
   try {
     const { text, namespace, ids } = req.body;
-    const chunks = await splitText(text);
-    const embeddings = await generateEmbeddings(chunks);
+    const index = 'irfan-ai';
 
-    const vectors = embeddings.map((embedding, idx) => ({
-      id: ids[idx],
-      values: embedding,
-    }));
+    const openai = new OpenAI({
+      apiKey: process.env.CHATGPTAPIKEY,
+    });
 
-    await upsertEmbeddings(namespace, vectors);
+    const embedding = await openai.embeddings.create({
+      model: "text-embedding-3-small",
+      input: text,
+      encoding_format: "float",
+    });
 
-    res.status(200).json({ message: 'Embeddings updated successfully.' });
+    const formattedVectors = [{
+      id: ids,
+      values: embedding?.data[0].embedding,
+      metadata: embedding?.usage
+    }];
+
+    const response = await upsertEmbeddings(namespace, index, formattedVectors);
+    res.status(200).json({ message: `Text embedded and stored ${response}.` });
   } catch (error) {
     console.error('Error updating embeddings:', error);
     res.status(500).json({ error: 'Failed to update embeddings.' });
@@ -84,8 +81,9 @@ export const updateEmbeddedText = async (req, res) => {
 export const deleteEmbeddings = async (req, res) => {
   try {
     const { namespace, ids } = req.body;
-    await deleteEmbeddingsByIds(namespace, ids);
-    res.status(200).json({ message: 'Embeddings deleted successfully.' });
+    const index = 'irfan-ai';
+    const response = await deleteEmbeddingsByIds(index, namespace, ids);
+    res.status(200).json({ message: `Embeddings deletion ${response}` });
   } catch (error) {
     console.error('Error deleting embeddings:', error);
     res.status(500).json({ error: 'Failed to delete embeddings.' });
@@ -95,8 +93,9 @@ export const deleteEmbeddings = async (req, res) => {
 export const deleteNamespaceEmbeddings = async (req, res) => {
   try {
     const { namespace } = req.body;
-    await deleteAllEmbeddingsInNamespace(namespace);
-    res.status(200).json({ message: 'All embeddings in namespace deleted successfully.' });
+    const index = 'irfan-ai';
+    const response = await deleteAllEmbeddingsInNamespace(index, namespace);
+    res.status(200).json({ message: `All embeddings in namespace deleted ${response}.` });
   } catch (error) {
     console.error('Error deleting namespace embeddings:', error);
     res.status(500).json({ error: 'Failed to delete namespace embeddings.' });
