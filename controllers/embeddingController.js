@@ -1,10 +1,6 @@
 // controllers/embeddingController.js
-import fs from 'fs';
-import { extractEmbeddingsFromHNSWLib, generateEmbeddings, splitText } from '../utils/textutils.js';
 import { upsertEmbeddings, deleteEmbeddingsByIds, deleteAllEmbeddingsInNamespace } from '../models/embeddingmodel.js';
-import { HNSWLib } from "langchain/vectorstores/hnswlib";
-import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
+import EmbeddedData from '../models/embeddedModel.js';
 import OpenAI from "openai";
 import dotenv from 'dotenv';
 import { v4 as uuidv4 } from 'uuid';
@@ -42,6 +38,18 @@ export const addEmbeddedText = async (req, res) => {
 
     const response = await upsertEmbeddings(namespace, index, formattedVectors);
 
+    // Creating a new Embedded Data
+    const newEmbeddedData = new EmbeddedData({
+      text: text,
+      values: formattedVectors[0]?.values,
+      metadata: formattedVectors[0]?.metadata,
+      namspace_itemId: formattedVectors[0]?.id,
+      nameSpaceName: namespace
+    });
+
+    // Saving Embedded Data
+    await newEmbeddedData.save();
+
     res.status(200).json({ message: `Text embedded and stored ${response}.` });
   } catch (error) {
     console.error('Error adding embedded text:', error);
@@ -71,6 +79,16 @@ export const updateEmbeddedText = async (req, res) => {
     }];
 
     const response = await upsertEmbeddings(namespace, index, formattedVectors);
+
+    // filter data based on id
+    const data = await EmbeddedData.findOne({ namspace_itemId: ids });
+
+    // update text field value
+    if (data) {
+      data.text = text;
+      await data.save();
+    }
+
     res.status(200).json({ message: `Text embedded and stored ${response}.` });
   } catch (error) {
     console.error('Error updating embeddings:', error);
@@ -83,6 +101,9 @@ export const deleteEmbeddings = async (req, res) => {
     const { namespace, ids } = req.body;
     const index = 'irfan-ai';
     const response = await deleteEmbeddingsByIds(index, namespace, ids);
+    // delete data based on id
+    await EmbeddedData.deleteOne({ namspace_itemId: ids });
+
     res.status(200).json({ message: `Embeddings deletion ${response}` });
   } catch (error) {
     console.error('Error deleting embeddings:', error);

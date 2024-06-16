@@ -32,6 +32,7 @@ import assistantTypesRoute from "./routers/assistantTypesRoutes.js";
 import pinnedRouter from "./routers/pinnedAssistantRoutes.js";
 import fileRouter from "./routers/fileUploadRoute.js";
 import embeddingRouter from "./routers/embeddingRoutes.js";
+import conversationRouter from "./routers/conversationRoute.js";
 const app = express();
 const server = http.createServer(app);
 
@@ -63,6 +64,7 @@ app.use("/api/assistants/favourite", favoriteRouter);
 app.use("/api/assistants/pinned", pinnedRouter);
 app.use("/api/customTrainData", customTrainDataRouter);
 app.use("/api/embedded", embeddingRouter);
+app.use("/api/conversation", conversationRouter);
 
 
 app.use('/api/assistants/threads', assistantThreadRouter);
@@ -71,7 +73,7 @@ app.use("/api/organizations", organizationRouter);
 app.use("/api/usage", trackUsageRouter);
 app.use("/api/usersPreference", userPreferenceRouter)
 
-app.use("/api/assistants/types",assistantTypesRoute);
+app.use("/api/assistants/types", assistantTypesRoute);
 
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
