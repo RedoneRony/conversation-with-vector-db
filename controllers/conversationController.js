@@ -49,6 +49,8 @@ export const handleMessage = async (req, res) => {
             question: message,
         });
 
+        // user information in future i will take from db
+
         conversationData.messages.push({ sender: 'user', message });
         conversationData.messages.push({ receiver: 'bot', message: result?.text });
 
@@ -69,6 +71,7 @@ export const handleMessage = async (req, res) => {
     } else {
 
         // if there are no matches, so GPT-3 will not be queried
+        // user information in future i will take from db
         conversationData.messages.push({ sender: 'user', message });
         conversationData.messages.push({ receiver: 'bot', message: "please provide relevant questions...." });
 
